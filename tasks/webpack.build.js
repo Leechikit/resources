@@ -3,7 +3,7 @@ var path = require('path');
 var fs = require('fs');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var config = require('../config').default;
-var publicPath = config.publicPath+'project/tasksystem/pc/';
+var publicPath = config.publicPath+'';
 
 module.exports = {
     //插件项
@@ -39,7 +39,7 @@ module.exports = {
             loader: ExtractTextPlugin.extract('style', 'css!autoprefixer!postcss!sass')
         }, {
             test: /\.(png|jpg|gif)$/,
-            loader: 'url?limit=8192&name=image/[name].[ext]?[hash]'
+            loader: 'url?limit=1000&name=image/[name].[ext]?[hash]'
         }, {
             test: /\.(html)$/,
             loader: 'html?attrs=img:src img:data-original!file?name=html/[name].[ext]'

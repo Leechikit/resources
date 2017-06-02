@@ -1,0 +1,37 @@
+img {
+  width: 100px;
+  height: 100px; }
+
+div[class|="img"] {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.img-blue {
+  background-image: url(//127.0.0.1:3000/image/blue.png?ca07d35a60136eac2526892d3c322c31); }
+
+.img-green {
+  background-image: url(//127.0.0.1:3000/image/green.png?1127079e728a99fc57095cdf963bdbd9); }
+
+.img-grey {
+  background-image: url(//127.0.0.1:3000/image/grey.png?05e57f54c178607850fdcdb3e79ebabc); }
+
+.img-orange {
+  background-image: url(//127.0.0.1:3000/image/orange.png?fb7c9662370c1035a9e38199f92f2104); }
+
+.img-pink {
+  background-image: url(//127.0.0.1:3000/image/pink.png?08803e4523fdf88ac3feb3d3a2be89de); }
+
+.img-purple {
+  background-image: url(//127.0.0.1:3000/image/purple.png?bbda38f029f0effb65172cf5cae50706); }
+
+.img-red {
+  background-image: url(//127.0.0.1:3000/image/red.png?08d7125c658a960959c0b7d13e95027d); }
+
+.img-yellow {
+  background-image: url(//127.0.0.1:3000/image/yellow.png?dc6d02ee9990d0582fa2a70cb7a4dba2); }
+
+body .s-hide {
+  display: none; }

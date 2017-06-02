@@ -1,0 +1,22 @@
+$colors: blue green grey orange pink purple red yellow;
+img{
+	width:100px;
+	height: 100px;
+}
+div[class|="img"]{
+	display: inline-block;
+	width:100px;
+	height: 100px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+@each $color in $colors {
+	.img-#{$color} {
+		background-image: url(../image/#{$color}.png);
+	}
+}
+body{
+	.s-hide{
+		display: none;
+	}
+}
