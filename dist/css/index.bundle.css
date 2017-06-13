@@ -10,28 +10,31 @@ div[class|="img"] {
   background-repeat: no-repeat; }
 
 .img-blue {
-  background-image: url(//127.0.0.1:3000/image/blue.png?ca07d35a60136eac2526892d3c322c31); }
+  background-image: url(//127.0.0.1:3000/image/blue.png); }
 
 .img-green {
-  background-image: url(//127.0.0.1:3000/image/green.png?1127079e728a99fc57095cdf963bdbd9); }
+  background-image: url(//127.0.0.1:3000/image/green.png); }
 
 .img-grey {
-  background-image: url(//127.0.0.1:3000/image/grey.png?05e57f54c178607850fdcdb3e79ebabc); }
+  background-image: url(//127.0.0.1:3000/image/grey.png); }
 
 .img-orange {
-  background-image: url(//127.0.0.1:3000/image/orange.png?fb7c9662370c1035a9e38199f92f2104); }
+  background-image: url(//127.0.0.1:3000/image/orange.png); }
 
 .img-pink {
-  background-image: url(//127.0.0.1:3000/image/pink.png?08803e4523fdf88ac3feb3d3a2be89de); }
+  background-image: url(//127.0.0.1:3000/image/pink.png); }
 
 .img-purple {
-  background-image: url(//127.0.0.1:3000/image/purple.png?bbda38f029f0effb65172cf5cae50706); }
+  background-image: url(//127.0.0.1:3000/image/purple.png); }
 
 .img-red {
-  background-image: url(//127.0.0.1:3000/image/red.png?08d7125c658a960959c0b7d13e95027d); }
+  background-image: url(//127.0.0.1:3000/image/red.png); }
 
 .img-yellow {
-  background-image: url(//127.0.0.1:3000/image/yellow.png?dc6d02ee9990d0582fa2a70cb7a4dba2); }
+  background-image: url(//127.0.0.1:3000/image/yellow.png); }
 
 body .s-hide {
   display: none; }
+.img-green:hover{
+  background-image: url(//127.0.0.1:3000/image/red.png);
+}
